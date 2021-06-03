@@ -1,0 +1,51 @@
+Part II
+1-What does the man command do? Type in man rm. How do you scroll and get out?
+  man is short for manual, 
+  this command displays a specification of the use of the command that we want to know about
+  and the flags that can be use with it. 
+  As a windows user I have to use the --help command in the bash terminal
+
+2-Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+  the -l flag is displays a long listing format wich means that shows more information about the files and folders.
+  The -a flag displays ALL the files and folders even the hidden ones that start with .
+
+3-Type the following command to download and save the contents of google.com: curl https://www.google.com > google.html
+  file:///C:/Users/USER/Desktop/Migracode/google.html
+
+4-Use less to look at the contents of google.html.
+  done. It displays a lot of code.
+
+5-Look at the man page for less. Read the section on /pattern. Search for the text hplogo in the google.html file.
+  I could find HPLOGO disabling regex with ^R	
+
+6-How do you jump between words in the terminal?
+  You can jump between words in the terminal with ctrl + left/right arrows
+
+7-How do you get to the end of a line in terminal?
+  I can go to the end of the line pressing the end key
+  
+8-How do you move your cursor to the beginning in terminal?
+  I can move the cursor to the beginning by pressind the home key
+  
+9-How do you delete a word (without pressing backspace multiple times) in terminal?
+  By combinning alt + backspace
+  
+10-What is the difference between a terminal and shell?
+  As I can understand the shell is the program/ app that runs the commands, inputs and outputs.
+   The terminal is the program that interfaces with the shell.
+
+11-What is an absolute path?
+  The absolute path is the complete direction of a file or folder detailed from the root element.
+
+12-What is an relative path?
+  A relative path is a portion of the absolute path, it's location is based in it's relation to the directory where it is linking.
+
+13-What is a flag? Give three examples of flags you have used.
+    For example we have the -r to recursive apply a command in a folder
+  -v to show what the command is doing
+  -a to show all, even hidden files or folders
+
+14-What do the r and f flags do with the rm command?
+  the -r flag is used to recursive remove a folder
+  the -f flag is to force when there is a non existing file and arguments. 
+  It was usefull when I wanted to delete a direct acces.
